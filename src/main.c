@@ -1,10 +1,14 @@
 #include <stdlib.h>
-#include <string.h>
+#include <strings.h>
 #include <stdio.h>
+#include <time.h>
 
-// Hello
+int spin();
 
+// Main function does nothing at the moment
 int main() {
-    printf("Hello world, this is a test.\n");
+    printf("This is a test for \"Wheel of Random\"\n");
+    spin();
     return 0;
 }
+
